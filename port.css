@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 200px;
 }
 .header{
     width: 50%;
@@ -17,7 +18,7 @@ section{
 }
 .img{
     width: 60%;
-    padding: left 60px; 
+    padding-left: 60px; 
     padding-right: 30px;
    
     
@@ -33,4 +34,27 @@ section{
 .banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.img2{
+    width: 60%;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.dream a{
+    color: white;
+    background: tomato;
+    padding: 10px 40px ;
+    border-radius: 5px;
+    background-image: linear-gradient(tomato,red);
+    text-decoration: none;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.header2{
+    margin-right: 100px;
+    margin-left: 20px;
 }
