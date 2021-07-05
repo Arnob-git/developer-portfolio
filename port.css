@@ -73,15 +73,19 @@ h1{
     background-position: left;
     
 } 
+
+
 #border1{ 
-    border-left: 10px solid;
-    border-image: linear-gradient (tomato, lightsalmon);
-    border: image slice 1px; 
+    border-left: 10px solid tomato;
+    border-image: linear-gradient(tomato,lightsalmon);
+    border-image-slice: 30%;
+
 }
-#border1{ 
+#border2{ 
     border-left: 10px solid;
-    border-image: linear-gradient (blue cyan);
-    border: image slice 1px; 
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 30%;
+
 }
 footer{
     text-align: center;
